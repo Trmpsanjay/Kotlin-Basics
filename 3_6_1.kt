@@ -1,12 +1,12 @@
 // create your Laptop class here
 class Laptop{
-    var RAM="4GB"
+    var ram="4GB"
     var brand="HP"
     var hdd="1TB"
     fun performComputations(){
-    println(RAM)
+    println(ram)
     println(brand)
-    println(HDD)
+    println(hdd)
         
     }
 }
@@ -15,7 +15,7 @@ class Laptop{
 fun main(){
 
     // Create object of class here    
-    
+    var laptop=Laptop()
     println(laptop.ram)
     println(laptop.brand)
     println(laptop.hdd)
